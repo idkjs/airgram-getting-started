@@ -2,6 +2,10 @@
 
 This is an example of basic usage [Airgram](https://github.com/airgram/airgram) for creating Telegram client with TypeScript. I could not get the example from that repo to run mostly likely because I do not have the familiarity with which would have let me understand all the intracies of building this and that were not included in the docs. So here is how I got this to work.
 
+## TLDR
+
+I had to do all of the below when using `pnpm`. If you use `yarn` the example in at `https://github.com/airgram/airgram/tree/master/examples/getting-started` should work after from that repo after you follow these steps.
+
 ## Overview
 
 First, you should understand that this is a terminal program. It does not provide a browser user interface. When it runs it will be in the terminal where you ran `npm run start`.
